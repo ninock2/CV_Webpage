@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="sl">
+
+<head>
+    <title>Kontakt</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="../styles.css">
+
+</head>
+
+
+<body>
+    <header>
+    </header>
+
+    <!-- NAVIGATION BAR -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a>Nino Cehtelj Kristl</a>
+            </div>
+            <div class="main_list" id="mainListDiv">
+                <ul>
+                    <li><a href="../index.html">Domov</a></li>
+                    <li><a href="../clanki/clanki.html">članki</a></li>
+                    <li><a href="../galerijaslik/galerijaslik.html">galerija slik</a></li>
+                    <li><a href="../dogodki/dogodki.html">dogodki</a></li>
+                    <li><a href="../kontakt/kontakt.html">kontakt</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- Form Started -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <div class="contact-form">
+                    <h1>Kontaktni obrazec</h1>
+                    <p class="hint-text" style="text-align: center;">Vsa vprašanja so dobrodošla!</p>
+                    <form>
+                        <div class="row">
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <label for="inputFirstName">Ime</label>
+                                    <input type="text" class="form-control" id="inputFirstName" required>
+                                </div>
+                            </div>
+                            <div class="col-xs-6">
+                                <div class="form-group">
+                                    <label for="inputLastName">Priimek</label>
+                                    <input type="text" class="form-control" id="inputLastName" required>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputEmail">E-naslov</label>
+                            <input type="email" class="form-control" id="inputEmail" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputMessage">Sporočilo</label>
+                            <textarea class="form-control" id="inputMessage" rows="5" required></textarea>
+                        </div>
+                        <div class="gumba">
+                            <input type="submit" class="btn btn-primary" value="Oddaj obrazec" disabled="true">
+                            <hr>
+                            <button class="btn btn-primary" onclick="location.href='mailto:cehteljkristl.nino@gmail.com';">Pošlji mail</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Form Ended -->
+
+
+    <h3> <a href="../index.html">NAZAJ</a> </h3>
+</body>
+
+
+</html>

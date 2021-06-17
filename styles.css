@@ -1,30 +1,167 @@
-body{
+/* index */
+body {
     background-color: lightgrey;
 }
 
 h1 {
     text-align: center;
+    margin: 0px;
+    background-color: darkgray;
 }
 
+h2 {
+    
+    
+}
+
+header {
+    background-color: darkgray;
+}
+
+.col-5 {
+    text-align: center;
+    border: 1px solid black;
+    width: 45%;
+    margin: 20px 0px 0px 0px;
+
+}
+
+.col-5 h4 {
+    padding: 15px;
+}
+
+.col-5 .navodilaIzdelava ul li {
+    text-align: left;
+}
+.col-5 p {
+    font-weight: 700;
+    text-align: right;
+    padding: 15px;
+}
+
+.col-7 {
+    text-align: center;
+    border: 1px solid black;
+    width: 45%;
+    margin: 20px 0px 0px 20px;
+}
+
+.col-7 h4 {
+    padding: 15px;
+}
+
+.col-7 .navodilaPorocilo .porociloNum {
+    font-weight: 700;
+    padding: 5px 0px 5px 0px;
+    ;
+}
+
+.col-7 p {
+    font-weight: 700;
+    text-align: right;
+    padding: 15px;
+}
+
+footer {
+    margin-top: 100px;
+}
+
+footer p {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+/* Navbar */
+
+.nav {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    /* umaknjen border*/
+    line-height: 65px;
+    text-align: center;
+    background-color: #A9A9A9;
+}
+
+.nav div.logo {
+    width: 1000px;
+    height: 10px;
+    position: absolute;
+    text-align: left;
+}
+
+.nav div.logo a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.8em;
+    text-transform: uppercase;
+
+}
+
+.nav div.logo a:hover {
+    color: #c0c0c0;
+}
+
+.nav div.main_list {
+    width: 600px;
+    height: 65px;
+    float: right;
+}
+
+.nav div.main_list ul {
+    width: 100%;
+    height: 65px;
+    display: flex;
+    list-style: none;
+}
+
+.nav div.main_list ul li {
+    width: 120px;
+    height: 65px;
+}
+
+.nav div.main_list ul li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 65px;
+    text-transform: uppercase;
+}
+
+.nav div.main_list ul li a:hover {
+    color: #c0c0c0;
+}
+
+/* Članki */
 h2 {
     text-align: center;
 }
 
-.h2-galerijaslik{
+.h2-galerijaslik {
     text-align: center;
 }
 
 article {
     align-self: center;
-    text-align: left;
+    text-align: justify;
     max-width: 700px;
     margin: 0px auto;
-    
+    padding: 20px;
+
 }
-article:hover{
+
+article:hover {
     border-style: outset;
     font-size: 16px;
-    
+
+}
+
+article h2 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.spisek-div {
+    padding: 20px 20px 30px 20px;
 }
 
 .spisek-clankov {
@@ -41,36 +178,124 @@ ol {
     font-size: 18px;
 }
 
-a{
+a {
     color: midnightblue;
     text-decoration: none;
+
 }
-a:hover{
+
+a:hover {
     color: deepskyblue;
 }
 
-.li-spisek:hover{
+.li-spisek:hover {
     text-decoration-color: turquoise;
     font-size: 20px;
 }
 
-.footer{
+.footer {
     text-align: right;
 }
 
-.thumbnail-img{
+.thumbnail-img {
     display: block;
+    margin-top: 0px;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid black;
 }
-.thumbnail-img:hover{
+
+.thumbnail-img:hover {
     transform: scale(1.2);
 }
 
-.nazaj-button{
+.nazaj-button {
     text-align: center;
 }
-.nazaj-button:hover{
+
+.nazaj-button:hover {
     font-size: 22px;
+}
+
+/* Dogodki, event */
+
+.col-6 {
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 20px;
+    height: 300px;
+    align-content: center;
+}
+
+.col-6:hover {
+    border-style: outset;
+    font-size: 16px;
+
+}
+
+.event-bold {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.col-6 c a {
+    font-weight: 700;
+}
+
+.col-6 c a:hover {
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* Forma za kontakt */
+
+.contact-form {
+    padding: 50px;
+    margin: 30px 0;
+}
+
+.contact-form h1 {
+    text-transform: uppercase;
+    margin: 0 0 15px;
+    background-color: lightgray;
+}
+
+.contact-form .form-control,
+.contact-form .btn {
+    min-height: 38px;
+    border-radius: 2px;
+}
+
+.contact-form .btn-primary {
+    min-width: 150px;
+    background: #299be4;
+    border: none;
+}
+
+.contact-form .btn-primary:hover {
+    background: #1c8cd7;
+    align-content: center;
+}
+
+.contact-form label {
+    opacity: 0.9;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.hint-text {
+    font-size: 15px;
+    padding-bottom: 15px;
+    opacity: 0.8;
+}
+
+.bs-example {
+    margin: 20px;
+}
+
+.gumba {
+    text-align: right;
 }

@@ -4,23 +4,35 @@
 <head>
     <title>Galerija slik</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="functions.js"></script>
     <link rel="stylesheet" href="../styles.css">
 </head>
 
 
 <body>
     <header>
-        <h1>GALERIJA SLIK</h1>
-        <hr>
-        <div class="topnav" style="text-align: center">
-            <a href="../index.html" target="_self">DOMOV </a> |
-            <a href="../omeni/omeni.html" target="_self">O MENI</a> |
-            <a href="../blog/blog.html" target="_self">BLOG</a> |
-            <a href="../galerijaslik/galerijaslik.html" target="_self">GALERIJA SLIK</a> |
-            <a href="../arhiv/arhiv.html" target="_self">ARHIV</a> |
-            <a href="mailto: cehteljkristl.nino@gmail.com">PIŠITE MI</a>
-        </div>
     </header>
+    <!-- NAVBAR -->
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a>Nino Cehtelj Kristl</a>
+            </div>
+            <div class="main_list" id="mainListDiv">
+                <ul>
+                    <li><a href="../index.html">Domov</a></li>
+                    <li><a href="../clanki/clanki.html">članki</a></li>
+                    <li><a href="../galerijaslik/galerijaslik.html">galerija slik</a></li>
+                    <li><a href="../dogodki/dogodki.html">dogodki</a></li>
+                    <li><a href="../kontakt/kontakt.html">kontakt</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </nav>
 
 
     <!-- PINGVINI -->
@@ -52,11 +64,7 @@
             <img src="psi/psi_thumbnail.jpg" alt="Naslovna slika z psmi" class="thumbnail-img">
         </a>
     </p>
-    <h2>
-
-        <h3 class="nazaj-button"> <a href="../index.html">NAZAJ</a> </h3>
-    </h2>
-
+        <h5 class="nazaj-button"> <a href="../index.html">NAZAJ</a> </h5>
 </body>
 
 
