@@ -1,0 +1,39 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+}
+
+a {
+    color: midnightblue;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid black;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.nazaj-button {
+    text-align: center;
+}
+
+.nazaj-button:hover {
+    font-size: 22px;
+}
